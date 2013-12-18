@@ -1,4 +1,4 @@
-A port of Laravel 3's Asset class. Made to work with Laravel 4.1.
+A port of Laravel 3's Asset class. Made to work with Laravel 4.x (4.0, 4.1 (and probably with further versions)).
 
 
 ## Usage
@@ -24,7 +24,8 @@ add `"teepluss/asset": "dev-master"` to the `require` section of your `composer.
 
 add the `https://github.com/Ardakilic/laravel4-asset` vcs source to your `composer.json` in `repositories` section (if there is no repositories section, create it first). It should look something like this:
 
-```{
+```composer
+{
 	"name": "laravel/laravel",
 	"description": "The Laravel Framework.",
 	...
